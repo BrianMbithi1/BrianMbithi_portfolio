@@ -129,3 +129,21 @@ main {
     color: var(--text-dim);
     max-width: 60ch;
 }
+
+/* Skillls section*/
+#skills-list {
+    list-style: none;
+    display: fkex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+}
+
+#skills-list li {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 0.4rem 1rem;
+    font-size: 0.9rem;
+    color: var(--accent);
+}
+
