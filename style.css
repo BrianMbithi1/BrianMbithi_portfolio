@@ -45,3 +45,14 @@ header {
     top: 0;
     z-index: 10;
 }
+
+.header-inner {
+    max-width: var(--max-width);
+    margin: 0;
+    padding: 1rem 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
