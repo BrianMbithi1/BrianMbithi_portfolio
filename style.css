@@ -178,4 +178,16 @@ main {
     margin-bottom: 0;
 }
 
+/* Contact */
+#contact p {
+    margin-bottom: 0.4rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    color: var(--text-dim);
+    font-size: 0.85rem;
+}
 
