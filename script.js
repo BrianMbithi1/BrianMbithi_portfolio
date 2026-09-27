@@ -41,6 +41,10 @@ projects.forEach((project) => {
    tech.classList.add("tech");
    tech.textContent = project.tech;
 
+   card.appendChild(title);
+   card.appendChild(description);
+   card.appendChild(tech);
+
    if (project.link && project.link !== "#") {
       const link = document.createElement("a");
       link.href = project.link;
