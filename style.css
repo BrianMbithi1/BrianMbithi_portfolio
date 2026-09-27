@@ -147,3 +147,35 @@ main {
     color: var(--accent);
 }
 
+/*Projects */
+#projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minimax(240px, 1fr));
+    gap: 1.25rem;
+}
+
+.project card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.25rem;
+}
+
+.project-card h3 {
+    font-size: 1.05rem;
+    margin-bottom: 0.5rem;;
+}
+
+.project-card p {
+    color: var(--text-dim);
+    font-size: 0.95rem;
+    margin-bottom: 0.75rem;
+}
+
+.project-card .tech {
+    font-size: 0.82rem;
+    color: var(--accent);
+    margin-bottom: 0;
+}
+
+
