@@ -25,3 +25,29 @@ const skills = ["HTML", "CSS", "Javascript", "Python"];
  },
 ];
 
+const projectsContainer = document.getElementById("projects-container");
+
+projects.forEach((project) => {
+   const card = document.createElement("div");
+   card.classList.add("project-card");
+
+   const title = document.createElement("h3");
+   title.textContent = project.title;
+
+   const description = document.createElement("p");
+   description.textContent = project.description;
+   
+   const tech = document.createElement("p");
+   tech.classList.add("tech");
+   tech.textContent = project.tech;
+
+   if (project.link && project.link !== "#") {
+      const link = document.createElement("a");
+      link.href = project.link;
+      link.textContent = "View project";
+      link.target = "_blank";
+      link.rel = "noopener";
+      card.appendChild(link);
+}
+projectsContainer.appendChild(card);
+});
