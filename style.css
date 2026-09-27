@@ -33,3 +33,15 @@ a:focus-visible {
     text-decoration: underline;
 }
 
+img {
+    max-width: 100%;
+    display: block;
+}
+
+header {
+    background: var(--bg-alt);
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
