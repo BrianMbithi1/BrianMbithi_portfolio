@@ -76,3 +76,24 @@ nav a:hover,
 nav-a :focus-visible {
     color: var(--accent);
 }
+
+main {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.section {
+    padding: 3rem 0;
+    border-bottom: 1px solid var(--border);
+}
+
+.section:last-of-type {
+    border-bottom: none;
+}
+
+.section h2 {
+    font-size: 1.4rem;
+    margin-bottom: 1.25rem;
+}
+
